@@ -409,17 +409,24 @@ header{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
     grid-gap: .5rem;
+    overflow: hidden;
 }
 
 .portfolio__item{
-    background: var(--clr-accent);
+    background: none;
     overflow: hidden;
 }
 
 .portfolio__img{
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
-    height: 100%;
+    transition: transform .4s;
+}
+
+@media only screen and (max-width: 700px){
+    .portfolio__img{
+        width: 58%;
+    }
 }
 
 .portfolio__item:focus{
