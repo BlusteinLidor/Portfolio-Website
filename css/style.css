@@ -277,6 +277,14 @@ header{
     z-index: 2;
 }
 
+.cv__img{
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (min-width: 600px){
     .intro{
         display: grid;
