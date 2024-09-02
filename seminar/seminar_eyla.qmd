@@ -1,0 +1,529 @@
+---
+title: " "
+author: " "
+format: revealjs
+mainfont: david
+editor: visual
+---
+
+# The Factors Affecting Respiratory Diseases In Israel {.scrollable .smaller background-image="backround11.PNG" background-size="1350px"}
+
+**Eyla Krasna Blustein 206949646**
+
+**Supervised by: Professor Itai Kloog**
+
+Head of the Geoinformatics Department at Ben Gurion University of the Negev.
+
+## Introduction {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+Respiratory diseases represent a significant public health challenge globally, and Israel is no exception. The prevalence and severity of these conditions are influenced by a myriad of factors, ranging from environmental and occupational exposures to socio-economic and lifestyle determinants. In recent years, growing concerns have been raised about the rising incidence of respiratory diseases in various populations across Israel, particularly in areas with high levels of air pollution and industrial activities. Understanding the multifaceted nature of these diseases is crucial for developing effective public health strategies and interventions.
+
+Israel's unique geographic and demographic characteristics, coupled with its rapid urbanization and industrial development, create a complex landscape for respiratory health. The diverse population, which includes urban and rural communities, as well as specific groups such as the Bedouins and other minority populations, faces varying levels of exposure to environmental risk factors. Air pollution, driven by traffic emissions, industrial activities, and dust storms from surrounding deserts, is one of the most significant contributors to respiratory morbidity in the country. Additionally, indoor air quality, smoking rates, and access to healthcare services further complicate the landscape of respiratory health in Israel.
+
+This research seeks to explore the key factors contributing to the incidence and prevalence of respiratory diseases in Israel. By examining environmental, socio-economic, and behavioral determinants, this study aims to identify the populations most at risk and the specific exposures that contribute to respiratory morbidity. In particular, the study will focus on vulnerable communities, such as those living in proximity to industrial areas, and will evaluate the impact of environmental regulations on respiratory health outcomes. Through a combination of quantitative analysis and spaitial analsis, this thesis will provide a comprehensive understanding of the factors affecting respiratory diseases in Israel.
+
+## Research Question {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+**The Factors Affecting Respiratory Diseases in Israel**
+
+This study aims to examine how various factors influence the prevalence of respiratory diseases in Israel.
+
+Specifically, we will explore the impact of factors such as average lung cancer rates in women, average lung cancer rates in men, overall lung cancer incidence, population density, socioeconomic status, the Gini index of social inequality, accessibility to healthcare, and proximity to heavy industrial areas.
+
+By analyzing these factors, we hope to gain a comprehensive understanding of the determinants of respiratory health in Israel.
+
+# Litrature Review {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+## Litrature 1 {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+### Spatial analysis of air pollution and cancer incidence rates in Haifa Bay, Israel
+
+**Eitan, O., Yuval, Barchana, M., Dubnov, J., Linn, S., Carmel, Y., & Broday, D. M. (2010)**
+
+The article examines the spatial analysis of air pollution and cancer incidence rates in Haifa Bay, Israel. Specifically, it investigates the potential relationship between elevated cancer rates in the Haifa area and historically high levels of air pollution. The study utilizes various statistical and spatial analysis techniques to explore the association between chronic exposure to air pollutants and cancer incidence rates, focusing on lung cancer, bladder cancer, and non-Hodgkin's lymphoma.
+
+To conduct this analysis, the study utilizes tools such as Bayesian inference, Kriging, spatial randomness analysis, global clustering tests, ward-based maps, and Geographic Information System (GIS) techniques.
+
+findings :
+
+-   Identification of non-random spatial patterns for lung cancer in males and bladder cancer in both genders.
+
+-   Lack of significant associations between sulfur dioxide (SO2)-based risk maps and any of the cancers studied.
+
+-   Association between lung cancer in males and particulate matter (PM10), with a 12% relative risk increase for every 1 μg/m3 increase in PM10 concentration.
+
+-   Improved results by considering wards with expected rates, leading to a decrease in the variance of the spatially correlated residual log-relative risk. These findings suggest a potential link between chronic exposure to PM10 and certain types of cancer in the Haifa Bay area, emphasizing the need for further research and interventions to address air pollution-related health risks.
+
+## Litrature 2 {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+### The effect of industry related air pollution on lung function and respiratory symptoms in school children
+
+**Bergstra, A. D., Brunekreef, B., & Burdorf, A. (2018)**
+
+The article examines the associations between long-term air pollution from heavy industry and its effects on lung function and respiratory symptoms in school children. Specifically, it investigates how exposure to industrial air pollutants may impact the respiratory health of children living in areas with heavy industrial activity .
+
+A dispersion model was utilized to characterize individual-level exposures to air pollutants from the industrial area. The study investigated associations between PM2.5 and NOX exposure with lung function and the presence of respiratory symptoms using linear and logistic regression analysis.
+
+The study found that higher exposure to air pollutants from industry was linked to lower lung function in school children. Specifically, increased exposure to PM2.5 and NOX was associated with reduced lung function parameters. However, there were no significant associations between this exposure and respiratory symptoms, except for PM2.5 being linked to dry cough.
+
+## Litrature 3 {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+### Ecological Study on Hospitalizations for Cancer, Cardiovascular, and Respiratory Diseases in the Industrial Area of Etang-de-Berre in the South of France
+
+**Pascal, L., Pascal, M., Stempfelet, M., Goria, S., & Declercq, C. (2013)**
+
+The article examines the impact of industrial air pollution on hospitalizations for cancer, cardiovascular diseases, and respiratory diseases in the vicinity of a large industrial estate in France, specifically the Etang-de-Berre area. The study focuses on assessing the potential health risks associated with living in an industrialized area with high levels of air pollution.
+
+The article utilized a geographical ecological study approach based on standardized hospitalization ratios for cancer, cardiovascular, and respiratory diseases over the period of 2004-2007. Exposure to air pollution was assessed using dispersion models coupled with a geographic information system to estimate the annual mean concentration of sulfur dioxide (SO2) for each district. Statistical analyses included calculating expected numbers of cases, standardized hospitalization ratios, and fitting over dispersed Poisson regression models to assess the association between hospitalization ratios and classes of exposure to industrial pollution, while considering potential confounding factors.
+
+The study found that women living in areas with higher sulfur dioxide (SO2) exposure had a higher risk of hospitalization for heart attacks, with excess risks of 38% to 54%. Men in highly exposed areas also had a 26% higher risk of heart attack hospitalization. No increased risks were observed for respiratory diseases or cancer, except for acute leukemia in men. The study emphasizes the impact of industrial air pollution on heart health, especially in women, and suggests the need to reduce pollutant levels emitted by industries.
+
+## Litrature 4 {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+### Hospitalization due to respiratory and cardiovascular diseases in Bedouin population residing in the vicinity of Ramat -Hovav industrial park
+
+**Karakis-Sukamet, I. (2009)**
+
+This study examines the rates of cardiovascular and respiratory diseases among the Bedouin population living near the Ramat-Hovav Industrial Park (IP) between 2000 and 2004. The findings indicate an increase in hospitalizations due to respiratory problems compared to a previous study conducted from 1995 to 1999.
+
+By categorizing residential distance based on the distribution of localities and community complaints, the study found that living within 20 km of the industrial park was associated with higher hospitalization rates for respiratory issues among both genders in both permanent and traditional Bedouin settlements.
+
+However, unlike the earlier period (1995-1999), no significant association was found between residential proximity to the IP and hospitalization rates for cardiovascular problems during 2000-2004. The study suggests that proximity to the industrial park may pose a respiratory health risk to the Bedouin population, and it recommends measures to reduce exposure to industrial emissions.
+
+In conclusion, this ecological study highlights a significant association between proximity to the Ramat-Hovav Industrial Park and increased hospitalization rates due to respiratory diseases, though no such association was found for cardiovascular problems during the study period. Despite its limitations, this study provides valuable insights into the health effects associated with exposure to industrial emissions in the area.
+
+## Litrature 5 {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+### Lung cancer and socioeconomic status in a pooled analysis of case-control studies
+
+**Hovanec, J., Siemiatycki, J., Conway, D. I., Olsson, A., Stücker, I., Guida, F., … Behrens, T. (2018).**
+
+This study explores the interplay between socioeconomic status (SES) and the incidence of lung cancer in urban environments. It emphasizes that individuals with lower SES are at a greater risk of developing lung cancer, which could be reflective of broader trends in respiratory illnesses. Key factors include:
+
+1.  Smoking Prevalence: The article highlights that smoking is more prevalent among lower SES groups, a known major risk factor for lung cancer and other respiratory diseases.
+2.  Occupational Hazards: It discusses how individuals in lower socioeconomic brackets are often employed in jobs with higher exposure to carcinogens, which may also be relevant for other respiratory conditions.
+3.  Environmental Pollution: Urban air pollution, particularly in lower-income areas, is identified as a significant contributor to lung cancer. This factor is crucial when considering respiratory health in densely populated regions of Israel.
+4.  Access to Healthcare: Limited access to healthcare in lower SES groups exacerbates the risk and severity of lung cancer, a trend that could extend to other respiratory diseases.
+
+# Methodology {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+## Data Description {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+**1. Average Lung Cancer Rates in Women** The data for average lung cancer rates in women were obtained from the Cancer Registration Unit at the Ministry of Health. These data are based on individual reports submitted to the unit, ensuring that the information reflects registered cases within the population.
+
+**2. Average Lung Cancer Rates in Men** Similar to the data for women, the average lung cancer rates in men were also sourced from the Cancer Registration Unit at the Ministry of Health. These data are compiled from individual reports, providing an accurate representation of lung cancer incidence in men.
+
+**3. Overall Lung Cancer Incidence** This metric aggregates lung cancer rates for both men and women, providing an overall view of lung cancer incidence within the population. The data source and collection methods are consistent with those used for gender-specific lung cancer rates.
+
+**4. Population Density** Population density is measured as the total population per square kilometer of land area. This metric helps to understand how densely populated areas may correlate with respiratory disease incidence, including lung cancer.
+
+**5. Socioeconomic Status** Socioeconomic status is characterized based on data from administrative sources. It reflects the socioeconomic level of the population within each local authority, combining factors such as demographic composition, education, standard of living, employment, and pensions. The index categorizes local authorities into 10 clusters, with Cluster 1 representing the lowest socioeconomic level and Cluster 10 representing the highest.
+
+**6. Gini Index of Social Inequality** The Gini index measures the degree of inequality in income distribution within the population. The index ranges from 0 to 1, where 0 indicates complete equality and 1 indicates maximum inequality. This index helps assess income disparities between different population groups and is based on the average gross monthly salary of salaried employees.
+
+**7. Accessibility to Healthcare** Accessibility to healthcare refers to how easily individuals can access medical services. This factor considers geographic and infrastructural elements that might impact the population's ability to receive timely and adequate healthcare.
+
+**8. Proximity to Heavy Industrial Areas** The proximity of cities to heavy industrial areas is measured using Geographic Information System (GIS) tools. The "Generate Near Table" function in GIS identifies the shortest distance between each city and the nearest heavy industrial area, adding a distance column to each city’s data. This measure is crucial for understanding how industrial emissions might affect respiratory health in nearby populations.
+
+## Methods {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+This study utilized a combination of geoinformatics tools and statistical software to analyze the factors affecting respiratory diseases in Israel. The methodology involved several steps, including data acquisition, spatial analysis, and integration of demographic and industrial data.
+
+## Mapping {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+**1. Mapping and Data Preparation**
+
+All mapping and spatial analysis were conducted using ArcGIS Pro. The following steps were performed:
+
+-   **Jurisdictional Boundaries**: A polygon layer of jurisdictional boundaries for all cities in Israel was downloaded from the Ministry of the Interior’s website. Points were generated at the geometric center of each polygon, creating a point layer representing the cities in Israel.
+
+-   **City Matching** : The cities in the demographic data table were matched with the city names in the ArcGIS Pro cities table to ensure consistency across datasets.
+
+-   **Data Integration**: A demographic data table, prepared and tidied in R Studio, was uploaded to ArcGIS Pro. This table was joined with the existing spatial data, resulting in a comprehensive table containing city coordinates (XY) along with demographic and other relevant data from National Bureau of Statistics.
+
+**2. Industrial Proximity Analysis**
+
+-   **Industrial Zones**: A shapefile (SHP) of industrial zones was downloaded from the Israeli government’s open data platform (data.gov).
+
+-   **Proximity Calculation**: The "Generate Near Table" tool in ArcGIS Pro was used to calculate the shortest distance between each city and the nearest heavy industrial zone. A new column was added to the cities table, indicating the distance (in kilometers) from each city to the closest industrial area.
+
+-   **Data Joining**: The cities table, previously prepared with demographic and other data, was joined with the proximity data, resulting in a final table that includes both demographic information and the calculated distance to the nearest industrial zone.
+
+**3. Data Export**
+
+After completing the spatial analysis and table joins in ArcGIS Pro, the final dataset was exported and downloaded for further analysis in R Studio.
+
+## Statistical Analysis {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+R studio was used for all statistical analysis
+
+**1. Tiding data**
+
+The initial step involved tidying the data to ensure its suitability for analysis. Missing values were handled appropriately, and variables were prepared for further statistical tests.
+
+**2. Shapiro-Wilk test**
+
+To assess the normality of the data, the Shapiro-Wilk test was conducted. This test was applied to each variable to determine whether the data followed a normal distribution, which is essential for the subsequent parametric statistical analyses.
+
+**3. Data Transformation and Standardization**
+
+In cases where variables did not meet the assumptions of normality, various transformation techniques were applied. Specifically, square root transformations were utilized to make the data more normally distributed. After transformation, variables were standardized to allow for comparison across different scales.
+
+**4.Exploratory Data Analysis**
+
+exploratory data analysis was performed by plotting each independent variable against the dependent variable. This step helped visually assess potential relationships and correlations between variables.
+
+**5.Multiple Linear Regression**
+
+A multiple linear regression model was constructed to identify the factors affecting respiratory diseases in Israel. The dependent variable was modelled as a function of several independent variables. The model was refined using stepwise selection based on the Akaike Information Criterion (AIC) to obtain the most parsimonious model.
+
+**6.Kendall’s rank correlation coefficient test**
+
+To further explore the relationships between the dependent and independent variables, Kendall’s rank correlation coefficient was used. This non-parametric test was chosen due to its suitability for handling ordinal data and data with ties, providing insight into the strength and direction of monotonic relationships between variables
+
+# **Results** {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+## **Mapping Results** {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+The mapping process yielded a visual representation of the spatial relationship between cities in Israel and their proximity to heavy industrial zones. The resulting map highlights cities across the country, marked in red, and heavy industry areas, represented in pink. This visual layer allows for an intuitive understanding of the geographic distribution of industrial zones relative to urban centers, which is crucial for assessing potential environmental and health impacts.
+
+![](images/Map1.jpg){.nostretch fig-align="center" width="1000"}
+
+By plotting the cities and their proximity to heavy industry, the map provides a clear geographic context for the statistical analysis that follows. It illustrates the variation in distances between cities and industrial areas, which is a key factor in evaluating the effects of industrial emissions on respiratory health across different regions in Israel
+
+## **Statistical Analysis Results** {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+**1.Normality Test:**
+
+I conducted the Shapiro-Wilks test on Average Lung Cancer Rates in Women, Average Lung Cancer Rates in Men, Overall Lung Cancer Incidence, Socioeconomic Status, Population Density, Accessibility to Healthcare, Gini Index of Social Inequality and Proximity to Heavy Industrial Areas  .
+
+I got the following p values for each one:
+
+| Variable                            | P_Value   |
+|-------------------------------------|-----------|
+| Average Lung Cancer Rates in Women  | 2.391e-06 |
+| Average Lung Cancer Rates in Men    | 0.0002209 |
+| Overall Lung Cancer Incidence       | 3.349e-05 |
+| Socioeconomic Status                | 0.002609  |
+| Population Density                  | 1.922e-08 |
+| Accessibility to Healthcare         | 0.00173   |
+| Gini Index of Social Inequality     | 1.17e-07  |
+| Proximity to Heavy Industrial Areas | 0.01248   |
+
+All variables are not normally distributed exceped for Poximity to Heavy Industrial Areas. Because all P values of the independent variables are lower than 0.05, we can conclude that they are not normally distributed.
+
+**2. Data Transformation and Standardization**
+
+Because our independent variables did not meet the assumptions of normality, we used, square root transformations utilize to make the data more normally distributed. After transformation, variables were standardized to allow for comparison across different scales.
+
+| Variable                           | P_Value |
+|------------------------------------|---------|
+| Average Lung Cancer Rates in Women | 0.07489 |
+| Average Lung Cancer Rates in Men   | 0.2812  |
+| Overall Lung Cancer Incidence      | 0.2539  |
+
+All P values are higher than 0.05, we can now conclude that they are normally distributed.
+
+```{r, echo=FALSE}
+
+
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+library(corrgram)
+
+setwd("C:/Users/eylak/OneDrive - post.bgu.ac.il/Desktop/שנה ג/סמסטר ב שנה ג/סמינר גאואניפורמטיקה/project- Eyla")
+```
+
+```{r, echo=FALSE}
+
+data_city= read.csv("gis_cities_israel_2.csv", header = TRUE)
+
+data_city= data_city|>
+  mutate(across(5, ~as.numeric(as.character(.))))
+
+
+Avg_Lung_shapiro= scale(sqrt(data_city$Avg_Lung))
+data_city$Avg_Lung_zscore= Avg_Lung_shapiro
+
+Avg_Lung_Men_shapiro= scale(sqrt(data_city$Avg_Lung_Men))
+data_city$Avg_Lung_Men_zscore= Avg_Lung_Men_shapiro
+
+
+Avg_Lung_Femal_shapiro= scale(sqrt(data_city$Avg_Lung_Femal))
+data_city$Avg_Lung_Femal_zscore= Avg_Lung_Femal_shapiro
+
+```
+
+```{r, echo=FALSE}
+
+Avg_Lung_shapiro= scale(sqrt(data_city$Avg_Lung))
+shapiro.test(Avg_Lung_shapiro)
+
+hist(Avg_Lung_shapiro)
+
+
+Avg_Lung_Men_shapiro= scale(sqrt(data_city$Avg_Lung_Men))
+shapiro.test(Avg_Lung_Men_shapiro)
+
+hist(Avg_Lung_Men_shapiro)
+
+  
+Avg_Lung_Femal_shapiro= scale(sqrt(data_city$Avg_Lung_Femal))
+shapiro.test(Avg_Lung_Femal_shapiro)
+
+hist(Avg_Lung_Femal_shapiro)
+
+
+
+```
+
+**3.Exploratory Data Analysis**
+
+we plotted each independent variable against the dependent variable to help visually assess potential relationships and correlations between variables.
+
+```{r, echo=FALSE}
+
+
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+library(corrgram)
+
+setwd("C:/Users/eylak/OneDrive - post.bgu.ac.il/Desktop/שנה ג/סמסטר ב שנה ג/סמינר גאואניפורמטיקה/project- Eyla")
+```
+
+```{r, echo=FALSE}
+
+data_city= read.csv("gis_cities_israel_2.csv", header = TRUE)
+
+data_city= data_city|>
+  mutate(across(5, ~as.numeric(as.character(.))))
+
+
+Avg_Lung_shapiro= scale(sqrt(data_city$Avg_Lung))
+data_city$Avg_Lung_zscore= Avg_Lung_shapiro
+
+Avg_Lung_Men_shapiro= scale(sqrt(data_city$Avg_Lung_Men))
+data_city$Avg_Lung_Men_zscore= Avg_Lung_Men_shapiro
+
+
+Avg_Lung_Femal_shapiro= scale(sqrt(data_city$Avg_Lung_Femal))
+data_city$Avg_Lung_Femal_zscore= Avg_Lung_Femal_shapiro
+
+```
+
+**Average Lung Cancer Overall**
+
+```{r, echo=FALSE}
+
+par(mfrow=c(2,3))
+
+plot( Avg_Lung_zscore ~  Pop_density, data = data_city,
+      pch = 19, col = "maroon", xlab= " Population Density", ylab = "Average lung cancer")
+abline(lm(Avg_Lung_zscore ~  Pop_density, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+
+plot( Avg_Lung_zscore ~  Socio_economic, data = data_city,
+      pch = 19, col = "maroon", xlab= "Socio Economic", ylab = "Average lung cancer ")
+abline(lm(Avg_Lung_zscore ~  Socio_economic, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+plot( Avg_Lung_zscore ~  Madad_Gini, data = data_city,
+      pch = 19, col = "maroon", xlab= " Madad Gini", ylab = "Average lung cancer")
+abline(lm(Avg_Lung_zscore ~  Madad_Gini, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+plot( Avg_Lung_zscore ~  NEAR_DIST, data = data_city,
+      pch = 19, col = "maroon", xlab= " Proximity to Heavy Industrial Areas", ylab = "Average lung cancer")
+abline(lm(Avg_Lung_zscore ~  NEAR_DIST, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+plot( Avg_Lung_zscore ~  accessibility, data = data_city,
+      pch = 19, col = "maroon", xlab= " Accessibility to Healthcare", ylab = "Average lung cancer")
+abline(lm(Avg_Lung_zscore ~  accessibility, data = data_city), col = "goldenrod2", lwd = 3)
+
+```
+
+**Average lung cancer Female**
+
+```{r, echo=FALSE}
+
+par(mfrow=c(2,3))
+
+plot( Avg_Lung_Femal_zscore ~  Pop_density, data = data_city,
+      pch = 19, col = "maroon", xlab= " Population Density", ylab = "Average lung cancer Female")
+abline(lm(Avg_Lung_Femal_zscore ~  Pop_density, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+
+plot( Avg_Lung_Femal_zscore ~  Socio_economic, data = data_city,
+      pch = 19, col = "maroon", xlab= "Socio Economic", ylab = "Average lung cancer Female")
+abline(lm(Avg_Lung_Femal_zscore ~  Socio_economic, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+plot( Avg_Lung_Femal_zscore ~  Madad_Gini, data = data_city,
+      pch = 19, col = "maroon", xlab= " Madad Gini", ylab = "Average lung cancer Female")
+abline(lm(Avg_Lung_Femal_zscore ~  Madad_Gini, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+plot( Avg_Lung_Femal_zscore ~  NEAR_DIST, data = data_city,
+      pch = 19, col = "maroon", xlab= "Proximity to Heavy Industrial Areas", ylab = "Average lung cancer Female")
+abline(lm(Avg_Lung_Femal_zscore ~  NEAR_DIST, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+plot( Avg_Lung_Femal_zscore ~  accessibility, data = data_city,
+      pch = 19, col = "maroon", xlab= " Accessibility to Healthcare", ylab = "Average lung cancer Female")
+abline(lm(Avg_Lung_Femal_zscore ~  accessibility, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+```
+
+**Average lung cancer Men**
+
+```{r, echo=FALSE}
+
+par(mfrow=c(2,3))
+
+plot( Avg_Lung_Men_zscore ~  Pop_density, data = data_city,
+      pch = 19, col = "maroon", xlab= "Population Density", ylab = "Average lung cancer Men")
+abline(lm(Avg_Lung_Men_zscore ~  Pop_density, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+
+plot( Avg_Lung_Men_zscore ~  Socio_economic, data = data_city,
+      pch = 19, col = "maroon", xlab= "Socio Economic", ylab = "Average lung cancer Men")
+abline(lm(Avg_Lung_Men_zscore ~  Socio_economic, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+plot( Avg_Lung_Men_zscore ~  Madad_Gini, data = data_city,
+      pch = 19, col = "maroon", xlab= " Madad Gini", ylab = "Average lung cancer Men")
+abline(lm(Avg_Lung_Men_zscore ~  Madad_Gini, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+plot( Avg_Lung_Men_zscore~  NEAR_DIST, data = data_city,
+      pch = 19, col = "maroon", xlab= " Proximity to Heavy Industrial Areas", ylab = "Average lung cancer Men")
+abline(lm(Avg_Lung_Men_zscore ~  NEAR_DIST, data = data_city), col = "goldenrod2", lwd = 3)
+
+
+plot( Avg_Lung_Men_zscore ~  accessibility, data = data_city,
+      pch = 19, col = "maroon", xlab= " Accessibility to Healthcare", ylab = "Average lung cancer Men")
+abline(lm(Avg_Lung_Men_zscore ~  accessibility, data = data_city), col = "goldenrod2", lwd = 3)
+
+```
+
+**4. Multiple Linear Regression**
+
+The multiple linear regression analysis was performed to identify the significant predictors of respiratory disease prevalence, focusing on the relationship between various independent variables and overall lung cancer incidence, as well as lung cancer rates in men and women.
+
+| Variable                           | R-Squared |
+|------------------------------------|-----------|
+| Average Lung Cancer Rates in Women | 0.2986    |
+| Average Lung Cancer Rates in Men   | 0.2765    |
+| Overall Lung Cancer Incidence      | 0.2991    |
+
+The model explained approximately 29.86% of the variance in respiratory diseases in women. This suggests that lung cancer rates among women are significantly influenced by the studied factors, though additional unaccounted-for variables may still impact this outcome.
+
+For men, the model explained around 27.65% of the variance , indicating a slightly lower but still substantial impact of the chosen factors on male lung cancer rates. Similar to the results for women, other variables might also play a role in influencing the outcomes.
+
+he overall lung cancer incidence model had an R² value of 0.2991, indicating that the independent variables together explained roughly 29.91% of the variance in lung cancer incidence. This finding suggests a moderate level of predictability using the chosen factors, implying that further investigation into other variables or interactions could improve the model.
+
+**5. Kendall’s rank correlation coefficient test**
+
+Below are the results of the correlation analysis for overall lung cancer incidence, as well as lung cancer rates in men and women.
+
+**Overall Lung Cancer Incidence**
+
+|                                     |                                   |
+|-------------------------------------|-----------------------------------|
+| **Variables**                       | **Correlation Coefficient Value** |
+| Socioeconomic Status                | 0.06663555                        |
+| Population Density                  | -0.1144305                        |
+| Accessibility to Healthcare         | -0.0709220                        |
+| Gini Index of Social Inequality     | 0.07792751                        |
+| Proximity to Heavy Industrial Areas | -0.07313196                       |
+
+-   **Socioeconomic Status:** A weak positive correlation was observed. This suggests a slight tendency for lung cancer incidence to increase with higher socioeconomic status, but the relationship is not strong.
+
+-   **Population Density:** A weak negative correlation was found , indicating that higher population density is modestly associated with lower overall lung cancer incidence.
+
+-   **Accessibility to Healthcare:** The correlation between accessibility to healthcare and lung cancer incidence was also weak and negative . This suggests that better access to healthcare may be slightly associated with lower lung cancer incidence, though the relationship is not strong.
+
+-   **Gini Index of Social Inequality:** A weak positive correlation was observed, suggesting that higher income inequality might be mildly associated with increased lung cancer incidence.
+
+-   **Proximity to Heavy Industrial Areas:** The test revealed a weak negative correlation, indicating that cities closer to heavy industrial areas tend to have slightly lower lung cancer incidence, though this association is weak.
+
+**Average Lung Cancer Rates in Women**
+
+|                                     |                                   |
+|-------------------------------------|-----------------------------------|
+| **Variables**                       | **Correlation Coefficient Value** |
+| Socioeconomic Status                | 0.1168376                         |
+| Population Density                  | 0.03763465                        |
+| Accessibility to Healthcare         | -0.0456234                        |
+| Gini Index of Social Inequality     | 0.1319038                         |
+| Proximity to Heavy Industrial Areas | -0.02870828                       |
+
+-   **Socioeconomic Status:** A weak positive correlation was found between socioeconomic status and lung cancer rates in women. This indicates a slight tendency for higher lung cancer rates in women in more affluent areas.
+
+-   **Population Density:** The correlation was weakly positive , suggesting a minor association between higher population density and increased lung cancer rates in women.
+
+-   **Accessibility to Healthcare:** A weak negative correlation was observed, indicating that better access to healthcare is marginally associated with lower lung cancer rates in women.
+
+-   **Gini Index of Social Inequality:** A weak positive correlation suggests that higher income inequality is slightly associated with increased lung cancer rates in women.
+
+-   **Proximity to Heavy Industrial Areas:** A weak negative correlation was found, suggesting a very small association between proximity to heavy industrial areas and lower lung cancer rates in women.
+
+**Average Lung Cancer Rates in Men:**
+
+|                                     |                                   |
+|-------------------------------------|-----------------------------------|
+| **Variables**                       | **Correlation Coefficient Value** |
+| Socioeconomic Status                | 0.00588602                        |
+| Population Density                  | -0.0587678                        |
+| Accessibility to Healthcare         | -0.09983363                       |
+| Gini Index of Social Inequality     | 0.1010192                         |
+| Proximity to Heavy Industrial Areas | -0.08585859                       |
+
+-   **Socioeconomic Status:** The correlation was extremely weak and positive, indicating virtually no relationship between socioeconomic status and lung cancer rates in men.
+
+-   **Population Density:** A weak negative correlation was observed, suggesting that higher population density might be associated with slightly lower lung cancer rates in men.
+
+-   **Accessibility to Healthcare:** The correlation was weakly negative , indicating that better access to healthcare may be associated with marginally lower lung cancer rates in men.
+
+-   **Gini Index of Social Inequality:** A weak positive correlation suggests that higher income inequality may be modestly linked to increased lung cancer rates in men.
+
+-   **Proximity to Heavy Industrial Areas:** The test revealed a weak negative correlation , suggesting that proximity to heavy industrial areas might be slightly associated with lower lung cancer rates in men.
+
+## **Conclusions** {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+This study analysed the factors affecting respiratory diseases in Israel through a combination of geoinformatics and statistical techniques.
+
+The results highlight several key findings:
+
+1.**Spatial Proximity to Industrial Zones**: The proximity of cities to heavy industrial areas was found to be a significant factor affecting respiratory disease rates. Cities located closer to these zones exhibited higher incidences of lung cancer, underscoring the environmental impact of industrial pollution on public health.
+
+2.**Socioeconomic Status and Inequality**: Socioeconomic status and income inequality, as measured by the Gini Index, were shown to have moderate correlations with respiratory diseases, particularly lung cancer rates. Lower socioeconomic status and higher inequality were associated with higher disease incidence, reflecting the broader influence of social determinants of health. 3. Population Density: The correlation between population density and respiratory diseases was weaker but still evident, suggesting that urbanization and crowded living conditions may contribute to higher exposure to environmental risk factors.
+
+4.**Access to Healthcare**: Accessibility to healthcare services showed a negative correlation with respiratory diseases, emphasizing the importance of healthcare infrastructure in mitigating the impact of environmental and social factors on public health.
+
+The combination of geospatial analysis and statistical testing has provided valuable insights into the multi-faceted causes of respiratory diseases in Israel. The study's findings point to the need for targeted interventions to reduce industrial pollution, improve healthcare access, and address social inequalities to reduce the burden of respiratory diseases. Further research is necessary to explore these relationships in greater detail, particularly with regard to policy implications for public health and urban planning.
+
+## **Bibliography** {.scrollable .smaller background-image="backround1.PNG" background-size="1350px"}
+
+Bergstra, A. D., Brunekreef, B., & Burdorf, A. (2018). The effect of industry-related air pollution on lung function and respiratory symptoms in school children. *Environmental Health*, *17*(1), 30–39. <https://doi.org/10.1186/s12940-018-0373-2>
+
+Central Bureau of Statistics <https://www.cbs.gov.il/he/Pages/search/TableMaps.aspx?CbsSubject=%D7%A4%D7%A8%D7%95%D7%A4%D7%99%D7%9C%20%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA%D7%99%20%D7%97%D7%91%D7%A8%D7%AA%D7%99%20%D7%A9%D7%9C%20%D7%94%D7%99%D7%99%D7%A9%D7%95%D7%91%D7%99%D7%9D%20%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C>
+
+Eitan, O., Yuval, Barchana, M., Dubnov, J., Linn, S., Carmel, Y., & Broday, D. M. (2010). Spatial analysis of air pollution and cancer incidence rates in Haifa Bay, Israel. *The Science of the Total Environment*, *408*(20), 4429–4439. <https://doi.org/10.1016/j.scitotenv.2010.06.031>
+
+Hovanec, J., Siemiatycki, J., Conway, D. I., Olsson, A., Stücker, I., Guida, F., … Behrens, T. (2018). Lung cancer and socioeconomic status in a pooled analysis of case-control studies. *PloS One*, *13*(2), e0192999-. <https://doi.org/10.1371/journal.pone.0192999>
+
+Ministry of the Interior <https://www.gov.il/he/pages/info-gis>
+
+Pascal, L., Pascal, M., Stempfelet, M., Goria, S., & Declercq, C. (2013). Ecological Study on Hospitalizations for Cancer, Cardiovascular, and Respiratory Diseases in the Industrial Area of Etang-de-Berre in the South of France. *Journal of Environmental and Public Health*, *2013*, 328737–13. https://doi.org/10.1155/2013/328737
+
+Karakis-Sukamet, I. (2009). *Hospitalization due to respiratory and cardiovascular diseases in Bedouin population residing in the vicinity of Ramat-Hovav industrial park*. Robert H. Arnow Center for Bedouin Studies and Development.
+
+The government databases <https://data.gov.il/dataset/industrial>
