@@ -1,5 +1,6 @@
 
 let singleVideo;
+getVideo();
 
 function getVideo(){
     let channelId = "UCy2vByAZhHucf8wV1Lr8hKw";
