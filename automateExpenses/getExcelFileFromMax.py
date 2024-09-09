@@ -41,12 +41,12 @@ time.sleep(5)
 driver.get("https://www.max.co.il/transaction-details/personal")
 
 # wait until the pop up window came up
-WebDriverWait(driver, 30).until(
-    EC.presence_of_element_located((By.PARTIAL_LINK_TEXT, "ייצא לאקסל"))
+WebDriverWait(driver, 5).until(
+    EC.presence_of_element_located((By.CLASS_NAME, "download-excel"))
 )
 
 # open the months tab
-download_excel = driver.find_element(By.PARTIAL_LINK_TEXT, "ייצא לאקסל")
+download_excel = driver.find_element(By.CLASS_NAME, "download-excel")
 download_excel.click()
 
 
