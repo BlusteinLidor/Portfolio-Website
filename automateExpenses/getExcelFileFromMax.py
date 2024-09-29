@@ -30,7 +30,7 @@ username_input.send_keys("liidorr@gmail.com")
 
 # input password
 password_input = driver.find_element(By.ID, "password")
-password_input.send_keys("Mynoneammo1")
+password_input.send_keys("")
 
 # press enter to complete login
 password_input.send_keys(Keys.ENTER)
